@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+$textColor1: rgb(51, 32, 223);
+$textColor2:azure;
+$color1: $textColor2;
+$color2: $textColor1;
+$backBackColor: #060e5c;
+
+@mixin center-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
