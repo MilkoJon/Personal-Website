@@ -1,0 +1,43 @@
+@import "./variables.scss";
+.all {
+  background-color: $backBackColor;
+}
+
+.detailsEducationLiecenses {
+  > div > div {
+    // height: calc(100vh - 160px);
+    background-color: $color1;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .singleEdu{
+    border: 2px solid $color2;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    // display: -webkit-box;
+    .singleEduLogo{
+      width: 100px;
+      padding: 10px;
+      text-align: center;
+      // background-color: red;
+      img{
+        width: 80px;
+      }
+    }
+    .singleEduData{
+      display: flex;
+      flex-direction: column;
+      width: -webkit-fill-available;
+      padding: 5px;
+
+      a{
+        text-decoration: none;
+      }
+      .eduTitle{
+        font-size: large;
+        font-weight: bold;
+      }
+    }
+  }
+}

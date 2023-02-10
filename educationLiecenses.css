@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.all {
+  background-color: #060e5c;
+}
+
+.detailsEducationLiecenses > div > div {
+  background-color: azure;
+  border-radius: 10px;
+  padding: 10px;
+}
+.detailsEducationLiecenses .singleEdu {
+  border: 2px solid rgb(51, 32, 223);
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+}
+.detailsEducationLiecenses .singleEdu .singleEduLogo {
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+}
+.detailsEducationLiecenses .singleEdu .singleEduLogo img {
+  width: 80px;
+}
+.detailsEducationLiecenses .singleEdu .singleEduData {
+  display: flex;
+  flex-direction: column;
+  width: -webkit-fill-available;
+  padding: 5px;
+}
+.detailsEducationLiecenses .singleEdu .singleEduData a {
+  text-decoration: none;
+}
+.detailsEducationLiecenses .singleEdu .singleEduData .eduTitle {
+  font-size: large;
+  font-weight: bold;
+}/*# sourceMappingURL=educationLiecenses.css.map */

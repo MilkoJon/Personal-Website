@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.all {
+  background-color: #060e5c;
+}
+
+.detailsContact > div > div {
+  height: 300px;
+  background-color: azure;
+  border-radius: 10px;
+}/*# sourceMappingURL=itCareer copy.css.map */

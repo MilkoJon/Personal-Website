@@ -64,6 +64,7 @@
 }
 .content .navigation .active > div {
   border: 3px solid azure;
+  font-weight: 600;
 }
 .content .navigation .submenu > span {
   display: block;
@@ -99,8 +100,37 @@
     display: block;
   }
 }
-.content .details > div > div {
-  height: 300px;
+.content .detailsPersonalInfo > div > div {
+  padding: 10px;
   background-color: azure;
   border-radius: 10px;
+}
+.content .detailsPersonalInfo > div > div .detailsItem {
+  display: flex;
+  padding-top: 15px;
+  margin: 15px;
+}
+.content .detailsPersonalInfo > div > div .detailsItem .name, .content .detailsPersonalInfo > div > div .detailsItem .profession {
+  position: relative;
+  bottom: 2px;
+}
+.content .detailsPersonalInfo > div > div .detailsItem > span {
+  width: 35%;
+  text-align: center;
+}
+.content .detailsPersonalInfo > div > div .detailsItem > div {
+  width: 65%;
+}
+.content .detailsPersonalInfo > div > div img {
+  width: 40px;
+  position: relative;
+  bottom: 6px;
+}
+.content #aboutMe {
+  color: azure;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background: rgba(0, 0, 0, 0.66);
+  font-style: italic;
 }/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.all {
+  background-color: #060e5c;
+}
+
+.detailsWorkExpirience > div > div {
+  background-color: azure;
+  border-radius: 10px;
+  padding: 10px;
+}
+.detailsWorkExpirience .singleWE {
+  border: 2px solid rgb(51, 32, 223);
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.detailsWorkExpirience .singleWE .singleWECompany {
+  padding: 10px;
+  border-bottom: 2px solid rgb(51, 32, 223);
+  border-radius: 8px;
+}
+@media screen and (max-width: 1500px) {
+  .detailsWorkExpirience .singleWE .singleWECompany {
+    padding-top: 35px;
+  }
+  .detailsWorkExpirience .singleWE .singleWECompany > a > img {
+    top: -30px;
+  }
+}
+.detailsWorkExpirience .singleWE .singleWECompany > a {
+  position: relative;
+  display: flex;
+}
+.detailsWorkExpirience .singleWE .singleWECompany > a > img {
+  height: 30px;
+  position: absolute;
+  right: 0;
+}
+.detailsWorkExpirience .singleWE .singleWEProyect {
+  padding: 10px;
+}
+.detailsWorkExpirience .singleWE .singleWEProyect > a {
+  display: flex;
+}
+.detailsWorkExpirience .singleWE .year {
+  width: 220px;
+}
+.detailsWorkExpirience .singleWE .name {
+  width: -webkit-fill-available;
+}
+.detailsWorkExpirience .singleWE * {
+  text-decoration: none;
+}
+.detailsWorkExpirience .singleWE .singleWE .eduTitle {
+  font-size: large;
+  font-weight: bold;
+}
+.detailsWorkExpirience span {
+  font-weight: bold;
+}/*# sourceMappingURL=workExpirience.css.map */
