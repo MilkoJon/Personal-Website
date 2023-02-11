@@ -8,6 +8,9 @@
   background-color: #060e5c;
 }
 
+.detailsWorkExpirience hr {
+  margin: 15px 0 0 0;
+}
 .detailsWorkExpirience > div > div {
   background-color: azure;
   border-radius: 10px;
@@ -37,6 +40,11 @@
   position: relative;
   display: flex;
 }
+@media screen and (max-width: 767px) {
+  .detailsWorkExpirience .singleWE .singleWECompany > a {
+    flex-direction: column;
+  }
+}
 .detailsWorkExpirience .singleWE .singleWECompany > a > img {
   height: 30px;
   position: absolute;
@@ -48,11 +56,17 @@
 .detailsWorkExpirience .singleWE .singleWEProyect > a {
   display: flex;
 }
+@media screen and (max-width: 767px) {
+  .detailsWorkExpirience .singleWE .singleWEProyect > a {
+    flex-direction: column;
+  }
+}
 .detailsWorkExpirience .singleWE .year {
   width: 220px;
 }
 .detailsWorkExpirience .singleWE .name {
   width: -webkit-fill-available;
+  padding-left: 5px;
 }
 .detailsWorkExpirience .singleWE * {
   text-decoration: none;

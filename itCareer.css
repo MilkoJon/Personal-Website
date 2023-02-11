@@ -9,7 +9,53 @@
 }
 
 .detailsItCareer > div > div {
-  height: 300px;
   background-color: azure;
   border-radius: 10px;
+  padding: 10px;
+}
+.detailsItCareer .singleProject {
+  border: 2px solid rgb(51, 32, 223);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.detailsItCareer .singleProject > .nameAndTech {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.detailsItCareer .singleProject > .nameAndTech .name {
+  margin: 10px 0 20px 0;
+}
+.detailsItCareer .singleProject > .about {
+  padding: 10px 0 10px 0;
+}
+.detailsItCareer .singleProject > .links > a {
+  padding-right: 20px;
+  text-decoration: none;
+  margin: 10px;
+}
+@media screen and (max-width: 575px) {
+  .detailsItCareer .singleProject > .links > a {
+    padding-right: 0px;
+    margin: 0px;
+  }
+}
+.detailsItCareer .singleProject > .links a:first-child {
+  padding-right: 20px;
+  font-size: larger;
+}
+@media screen and (max-width: 400px) {
+  .detailsItCareer .singleProject > .links a:first-child {
+    padding-right: 5px;
+  }
+}
+.detailsItCareer .singleProject > .links a:first-child img {
+  height: 20px;
+}
+.detailsItCareer .singleProject img {
+  height: 40px;
 }/*# sourceMappingURL=itCareer.css.map */

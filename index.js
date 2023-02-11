@@ -38,4 +38,4 @@ var message =
 // console.log(messageElement)
 
 var messageElement = "aboutMe";
-printLetterByLetter(messageElement, message, 10);
+// printLetterByLetter(messageElement, message, 10);

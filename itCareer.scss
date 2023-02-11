@@ -5,8 +5,85 @@
 
 .detailsItCareer {
   > div > div {
-    height: 300px;
+    // height: 300px;
     background-color: $color1;
     border-radius: 10px;
+    padding: 10px;
+  }
+  .singleProject {
+    border: 2px solid $color2;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    > .nameAndTech {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .name {
+        margin: 10px 0 20px 0;
+      }
+    }
+    >.about{
+      padding: 10px 0 10px 0;
+    }
+    >.links{
+      >a{
+        padding-right: 20px;
+        text-decoration: none;
+        margin: 10px;
+        @media screen and (max-width: 575px) {
+          padding-right: 0px;
+          margin: 0px;
+        }
+      }
+      a:first-child{
+        padding-right: 20px;
+        font-size: larger;
+        @media screen and (max-width: 400px) {
+          padding-right: 5px;
+        }
+        img{
+          height: 20px;
+        }
+      }
+    }
+    img{
+      height: 40px;
+      // background-color: black;
+    }
+    // display: -webkit-box;
+    // @media screen and (max-width: 575px) {
+    //   flex-direction: column;
+    // }
+
+    // .singleProjectLogo {
+    //   width: 100px;
+    //   padding: 10px;
+    //   text-align: center;
+    //   // background-color: red;
+    //   @media screen and (max-width: 575px) {
+    //     width: unset;
+    //   }
+    //   img {
+    //     width: 80px;
+    //   }
+    // }
+    // .singleProjectData {
+    //   display: flex;
+    //   flex-direction: column;
+    //   width: -webkit-fill-available;
+    //   padding: 5px;
+
+    //   a {
+    //     text-decoration: none;
+    //   }
+    //   .eduTitle {
+    //     font-size: large;
+    //     font-weight: bold;
+    //   }
+    // }
   }
 }
