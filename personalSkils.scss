@@ -5,8 +5,24 @@
 
 .detailsPersonalSkils {
   > div > div {
-    height: 300px;
-    background-color: $color1;
+    // height: 300px;
+    background-color: $bacgroundTransparentColor1;
     border-radius: 10px;
+    max-width: 550px;
+  }
+  .detailsItem{
+    >div{
+      display: flex;
+      flex-wrap: wrap;
+      >div{
+        border: 2px solid $color2;
+        margin: 5px;
+        padding: 0 10px;
+        // height: 26px;
+        border-radius: 13px;
+        background-color: $color1;
+        @include center-element
+      }
+    }
   }
 }

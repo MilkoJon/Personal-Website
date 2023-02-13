@@ -4,6 +4,10 @@
 }
 
 .header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
   height: 60px;
   color: $textColor2;
   background-color: black;
@@ -14,8 +18,8 @@
     height: 40px;
   }
   @media screen and (max-width: 440px) {
-    font-size: 16px;
-    height: 30px;
+    font-size: 18px;
+    // height: 30px;
   }
 }
 .content {
@@ -24,6 +28,11 @@
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: scroll;
+  margin-top: 60px;
+  @media screen and (max-width: 575px) {
+    margin-top: 40px;
+
+  }
 
   .navigation {
     > a {
@@ -54,6 +63,7 @@
     }
     .hamburger {
       display: none;
+      z-index: 2;
     }
     @media screen and (max-width: 575px) {
       > a {
@@ -70,9 +80,9 @@
         width: 50px;
         color: $color1;
         @media screen and (max-width: 440px) {
-          top: 4px;
-          right: -2px;
-          width: 48px;
+        //   top: 2px;
+        //   right: -2px;
+        //   width: 48px;
         }
       }
       .hamburgerToggle {
@@ -109,6 +119,13 @@
         >div{
             width: 65%;
         }
+        @media screen and (max-width: 440px) {
+            padding-top: 10px;
+            margin: 5px;
+            img{
+                width: 30px;
+            }
+            }
       }
       img {
         width: 40px;

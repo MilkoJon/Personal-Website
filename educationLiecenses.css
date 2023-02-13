@@ -8,6 +8,9 @@
   background-color: #060e5c;
 }
 
+.detailsEducationLiecenses * {
+  color: rgb(51, 32, 223);
+}
 .detailsEducationLiecenses > div > div {
   background-color: azure;
   border-radius: 10px;

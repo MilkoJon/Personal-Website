@@ -9,6 +9,10 @@
 }
 
 .header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
   height: 60px;
   color: azure;
   background-color: black;
@@ -26,8 +30,7 @@
 }
 @media screen and (max-width: 440px) {
   .header {
-    font-size: 16px;
-    height: 30px;
+    font-size: 18px;
   }
 }
 
@@ -37,6 +40,12 @@
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: scroll;
+  margin-top: 60px;
+}
+@media screen and (max-width: 575px) {
+  .content {
+    margin-top: 40px;
+  }
 }
 .content .navigation > a {
   text-decoration: none;
@@ -71,6 +80,7 @@
 }
 .content .navigation .hamburger {
   display: none;
+  z-index: 2;
 }
 @media screen and (max-width: 575px) {
   .content .navigation > a {
@@ -87,15 +97,6 @@
     width: 50px;
     color: azure;
   }
-}
-@media screen and (max-width: 575px) and (max-width: 440px) {
-  .content .navigation .hamburger {
-    top: 4px;
-    right: -2px;
-    width: 48px;
-  }
-}
-@media screen and (max-width: 575px) {
   .content .navigation .hamburgerToggle {
     display: block;
   }
@@ -120,6 +121,15 @@
 }
 .content .detailsPersonalInfo > div > div .detailsItem > div {
   width: 65%;
+}
+@media screen and (max-width: 440px) {
+  .content .detailsPersonalInfo > div > div .detailsItem {
+    padding-top: 10px;
+    margin: 5px;
+  }
+  .content .detailsPersonalInfo > div > div .detailsItem img {
+    width: 30px;
+  }
 }
 .content .detailsPersonalInfo > div > div img {
   width: 40px;

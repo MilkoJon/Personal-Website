@@ -10,6 +10,7 @@ $color1: $textColor2;
 $color2: $textColor1;
 $color3: rgb(235, 235, 235);
 $backBackColor: #060e5c;
+$bacgroundTransparentColor1: rgba(240, 255, 255, .66);;
 
 @mixin center-element {
   display: flex;

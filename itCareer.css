@@ -8,6 +8,9 @@
   background-color: #060e5c;
 }
 
+.detailsItCareer {
+  max-width: 1200px;
+}
 .detailsItCareer > div > div {
   background-color: azure;
   border-radius: 10px;
