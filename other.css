@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.all {
+  background-color: #060e5c;
+}
+
+.detailsOther > div > div {
+  background: rgba(240, 255, 255, 0.66);
+  border-radius: 10px;
+  max-width: 570px;
+}
+.detailsOther .detailsItem {
+  background-color: azure;
+  border-radius: 10px;
+  padding: 10px;
+}
+.detailsOther .detailsItem > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.detailsOther .detailsItem > div > div {
+  border: 2px solid rgb(51, 32, 223);
+  margin: 5px;
+  padding: 0 10px;
+  border-radius: 13px;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.detailsOther .detailsItem span {
+  font-style: italic;
+}
+.detailsOther .membership img {
+  height: 50px;
+  margin: 5px;
+}/*# sourceMappingURL=other.css.map */

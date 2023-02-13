@@ -13,6 +13,9 @@
   border-radius: 10px;
   max-width: 550px;
 }
+.detailsPersonalSkils .detailsItem > :first-child {
+  text-decoration: underline;
+}
 .detailsPersonalSkils .detailsItem > div {
   display: flex;
   flex-wrap: wrap;

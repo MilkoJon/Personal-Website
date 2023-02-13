@@ -53,7 +53,7 @@
 }
 @media screen and (max-width: 767px) {
   .content .navigation > a {
-    height: 30px;
+    height: 35px;
   }
 }
 .content .navigation > a > div {

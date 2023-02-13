@@ -3,30 +3,38 @@
   background-color: $backBackColor;
 }
 
-.detailsPersonalSkils {
+.detailsOther {
   > div > div {
     // height: 300px;
-    background-color: $bacgroundTransparentColor1;
+    background: $bacgroundTransparentColor1;
     border-radius: 10px;
-    max-width: 550px;
+    max-width: 570px;
   }
-  .detailsItem{
-    >:first-child{
-      // background-color: $color1;
-      text-decoration: underline;
-    }
-    >div{
+  .detailsItem {
+    background-color: $color1;
+    border-radius: 10px;
+    padding: 10px;
+    > div {
       display: flex;
       flex-wrap: wrap;
-      >div{
+      > div {
         border: 2px solid $color2;
         margin: 5px;
         padding: 0 10px;
         // height: 26px;
         border-radius: 13px;
         background-color: $color1;
-        @include center-element
+        @include center-element;
       }
+    }
+    span {
+      font-style: italic;
+    }
+  }
+  .membership{
+    img{
+      height: 50px;
+      margin: 5px ;
     }
   }
 }
