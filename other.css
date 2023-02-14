@@ -39,4 +39,8 @@
 .detailsOther .membership img {
   height: 50px;
   margin: 5px;
+}
+.detailsOther a {
+  text-decoration: none;
+  color: black;
 }/*# sourceMappingURL=other.css.map */
