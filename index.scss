@@ -4,10 +4,10 @@
 }
 
 .header {
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    z-index: 1;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
   height: 60px;
   color: $textColor2;
   background-color: black;
@@ -31,7 +31,6 @@
   margin-top: 60px;
   @media screen and (max-width: 575px) {
     margin-top: 40px;
-
   }
 
   .navigation {
@@ -80,9 +79,9 @@
         width: 50px;
         color: $color1;
         @media screen and (max-width: 440px) {
-        //   top: 2px;
-        //   right: -2px;
-        //   width: 48px;
+          //   top: 2px;
+          //   right: -2px;
+          //   width: 48px;
         }
       }
       .hamburgerToggle {
@@ -96,7 +95,7 @@
       //   height: 300px;
       padding: 10px;
       background-color: $color1;
-    //   opacity: 0.5;
+      //   opacity: 0.5;
       border-radius: 10px;
 
       .detailsItem {
@@ -106,39 +105,53 @@
         margin: 15px;
         // background-color: $color2;
         // opacity: 1.0;
-        .name, .profession{
-            position: relative;
-            bottom: 2px;
-            // right: 30px;
-            // text-align: end;
+        .name,
+        .profession {
+          position: relative;
+          bottom: 2px;
+          // right: 30px;
+          // text-align: end;
         }
         > span {
           width: 35%;
           text-align: center;
         }
-        >div{
-            width: 65%;
+        > div {
+          width: 65%;
         }
         @media screen and (max-width: 440px) {
-            padding-top: 10px;
-            margin: 5px;
-            img{
-                width: 30px;
-            }
-            }
+          padding-top: 10px;
+          margin: 5px;
+          img {
+            width: 30px;
+          }
+        }
       }
       img {
         width: 40px;
         position: relative;
         bottom: 6px;
       }
-
     }
   }
-  #aboutMe{
+  #aboutMe {
     color: $color1;
     height: fit-content;
-    background: rgba(0, 0, 0, .66);
+    background: rgba(0, 0, 0, 0.66);
     font-style: italic;
+  }
+}
+
+// sideHover
+#sideHover {
+  position: fixed;
+  top: 150px;
+  right: 30px;
+  width: 30%;
+  > * {
+    width: 100%;
+  }
+  @media screen and (max-width: 768px) {
+    display: none;
   }
 }
