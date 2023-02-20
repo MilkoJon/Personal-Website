@@ -144,19 +144,4 @@
   height: fit-content;
   background: rgba(0, 0, 0, 0.66);
   font-style: italic;
-}
-
-#sideHover {
-  position: fixed;
-  top: 150px;
-  right: 30px;
-  width: 30%;
-}
-#sideHover > * {
-  width: 100%;
-}
-@media screen and (max-width: 768px) {
-  #sideHover {
-    display: none;
-  }
 }/*# sourceMappingURL=index.css.map */

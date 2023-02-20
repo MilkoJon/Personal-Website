@@ -35,31 +35,53 @@
 }
 .detailsItCareer .singleProject > .about {
   padding: 10px 0 10px 0;
+  color: blue;
+  width: 100%;
+  text-align: center;
 }
-.detailsItCareer .singleProject > .links > a {
-  padding-right: 20px;
-  text-decoration: none;
-  margin: 10px;
+.detailsItCareer .singleProject > .about > span {
+  display: none;
 }
-@media screen and (max-width: 575px) {
-  .detailsItCareer .singleProject > .links > a {
-    padding-right: 0px;
-    margin: 0px;
+@media screen and (max-width: 425px) {
+  .detailsItCareer .singleProject > .about > span {
+    display: unset;
   }
 }
-.detailsItCareer .singleProject > .links a:first-child {
+@media screen and (min-width: 768px) {
+  .detailsItCareer .singleProject > .about > #projectDetails {
+    position: fixed;
+    top: 150px;
+    right: 30px;
+    width: 30%;
+    background-color: azure;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+.detailsItCareer .singleProject > .linksWrapper > a {
+  text-decoration: none;
+}
+.detailsItCareer .singleProject > .linksWrapper a:first-child {
   padding-right: 20px;
   font-size: larger;
   color: black;
 }
 @media screen and (max-width: 400px) {
-  .detailsItCareer .singleProject > .links a:first-child {
+  .detailsItCareer .singleProject > .linksWrapper a:first-child {
     padding-right: 5px;
   }
 }
-.detailsItCareer .singleProject > .links a:first-child img {
+.detailsItCareer .singleProject > .linksWrapper a:first-child img {
   height: 20px;
 }
 .detailsItCareer .singleProject img {
   height: 40px;
+}
+@media screen and (max-width: 425px) {
+  .detailsItCareer .singleProject img {
+    height: 30px;
+  }
+}
+.detailsItCareer .singleProject .linksWrapper {
+  width: 100%;
 }/*# sourceMappingURL=itCareer.css.map */

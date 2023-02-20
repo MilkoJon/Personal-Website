@@ -49,4 +49,17 @@
       }
     }
   }
+  // sideHover
+  #sideHover {
+    position: fixed;
+    top: 150px;
+    right: 30px;
+    width: 30%;
+    > * {
+      width: 100%;
+    }
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
 }

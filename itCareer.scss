@@ -27,65 +27,57 @@
         margin: 10px 0 20px 0;
       }
     }
-    >.about{
+    > .about {
       padding: 10px 0 10px 0;
-    }
-    >.links{
-      >a{
-        padding-right: 20px;
-        text-decoration: none;
-        margin: 10px;
-        @media screen and (max-width: 575px) {
-          padding-right: 0px;
-          margin: 0px;
+      color: blue;
+      width: 100%;
+      text-align: center;
+      > span {
+        display: none;
+        @media screen and (max-width: 425px) {
+          display: unset;
         }
       }
-      a:first-child{
+      > #projectDetails {
+        @media screen and (min-width: 768px) {
+          position: fixed;
+          top: 150px;
+          right: 30px;
+          width: 30%;
+          // > * {
+          //   width: 100%;
+          // }
+          background-color: $color1;
+          padding: 10px;
+          border-radius: 10px;
+        }
+      }
+    }
+    > .linksWrapper {
+      > a {
+        text-decoration: none;
+      }
+      a:first-child {
         padding-right: 20px;
         font-size: larger;
         color: black;
         @media screen and (max-width: 400px) {
           padding-right: 5px;
         }
-        img{
+        img {
           height: 20px;
         }
       }
     }
-    img{
+    img {
       height: 40px;
-      // background-color: black;
+      @media screen and (max-width: 425px) {
+        height: 30px;
+      }
     }
-    // display: -webkit-box;
-    // @media screen and (max-width: 575px) {
-    //   flex-direction: column;
-    // }
 
-    // .singleProjectLogo {
-    //   width: 100px;
-    //   padding: 10px;
-    //   text-align: center;
-    //   // background-color: red;
-    //   @media screen and (max-width: 575px) {
-    //     width: unset;
-    //   }
-    //   img {
-    //     width: 80px;
-    //   }
-    // }
-    // .singleProjectData {
-    //   display: flex;
-    //   flex-direction: column;
-    //   width: -webkit-fill-available;
-    //   padding: 5px;
-
-    //   a {
-    //     text-decoration: none;
-    //   }
-    //   .eduTitle {
-    //     font-size: large;
-    //     font-weight: bold;
-    //   }
-    // }
+    .linksWrapper {
+      width: 100%;
+    }
   }
 }
