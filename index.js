@@ -34,7 +34,7 @@ if (document.URL.includes("index")) {
     }, speed);
   }
   var message =
-    "“Civil Engineer with international experience looking for entry-level positions in the IT industry. Highly motivated, just finished an intensive JavaScript React bootcamp. Excited for new opportunities, ready to dedicate and always eager to learn more and improve as much as possible.     Why do I see myself in the IT industry? I like challenges and enjoy solving problems. All my previous contacts with programming I enjoyed and it was something that drives me. I am also a big math lover. I have successfully created buildings in the construction industry, why not do the same in the IT industry?”";
+    "“Motivated and detail-oriented frontend developer with a recent bootcamp certification in JavaScript React. Skilled in building responsive and user-friendly single page applications. Passionate about programming and committed to staying up-to-date with the latest technologies and industry trends. As a civil engineer with a interanational experiance, I bring a unique perspective to problem-solving. Excited to apply my skills and creativity to a new career in the dynamic and innovative field of IT.  Why do I see myself in the IT industry? I like challenges and enjoy solving problems. All my previous contacts with programming I enjoyed and it was something that drives me. I am also a big math lover. I have successfully created buildings in the construction industry, why not do the same in the IT industry?";
   var messageElement = "aboutMe";
   printLetterByLetter(messageElement, message, 50);
 }
